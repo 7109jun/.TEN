@@ -1,0 +1,12 @@
+[package]
+name = "ten-sys"
+version = "0.1.0"
+edition = "2021"
+description = "Raw FFI bindings to the .TEN C99 library (see /core). Do not use directly; use the `ten` crate."
+links = "ten"
+
+[lib]
+name = "ten_sys"
+
+[build-dependencies]
+cmake = "0.1"
