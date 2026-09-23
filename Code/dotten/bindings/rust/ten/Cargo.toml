@@ -1,0 +1,11 @@
+[package]
+name = "ten"
+version = "0.1.0"
+edition = "2021"
+description = "Safe Rust bindings for the .TEN cross-platform C99 library."
+
+[dependencies]
+ten-sys = { path = "../ten-sys" }
+
+[[example]]
+name = "hello"
