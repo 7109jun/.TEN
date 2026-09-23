@@ -1,8 +1,0 @@
-build/
-target/
-Cargo.lock
-*.o
-*.a
-*.so
-*.dll
-*.lib
